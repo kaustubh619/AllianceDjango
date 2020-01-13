@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1815f151-c116-490f-877e-f413939146ab" name="Default Changelist" comment="" />
+    <list default="true" id="1815f151-c116-490f-877e-f413939146ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/baseApp/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,21 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/travelDjango/urls.py">
+        <entry file="file://$PROJECT_DIR$/baseApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travelDjango/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="689">
+              <caret line="155" column="46" selection-start-line="155" selection-start-column="46" selection-end-line="155" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,17 +47,17 @@
       <find>MainCategoryView</find>
       <find>filter</find>
       <find>PackagesByCategoryId</find>
-      <find>handle</find>
       <find>PackageImage</find>
       <find>BlogDeleteEdit</find>
       <find>PackageQueryPostView</find>
       <find>package_query_post</find>
       <find>PackageQueryPostViewWithDepth</find>
       <find>PackageQuerySerializer</find>
+      <find>handle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,10 +65,10 @@
         <option value="$PROJECT_DIR$/baseApp/admin.py" />
         <option value="$PROJECT_DIR$/baseApp/models.py" />
         <option value="$PROJECT_DIR$/baseApp/serializers.py" />
-        <option value="$PROJECT_DIR$/baseApp/views.py" />
         <option value="$PROJECT_DIR$/baseApp/urls.py" />
         <option value="$PROJECT_DIR$/travelDjango/settings.py" />
         <option value="$PROJECT_DIR$/travelDjango/urls.py" />
+        <option value="$PROJECT_DIR$/baseApp/views.py" />
       </list>
     </option>
   </component>
@@ -93,6 +91,11 @@
             <path>
               <item name="travelDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="travelDjango" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelDjango" type="462c0819:PsiDirectoryNode" />
+              <item name="baseApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travelDjango" type="b2602c69:ProjectViewProjectNode" />
@@ -218,16 +221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baseApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="253" column="43" selection-start-line="253" selection-start-column="21" selection-end-line="253" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baseApp/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
@@ -238,17 +231,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travelDjango/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/travelDjango/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelDjango/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baseApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="155" column="46" selection-start-line="155" selection-start-column="46" selection-end-line="155" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
