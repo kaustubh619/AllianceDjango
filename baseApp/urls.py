@@ -1,0 +1,33 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('admin_login', views.login_admin),
+    path('category', views.CategoryView.as_view()),
+    path('category_post', views.CategoryPostView.as_view({'get': 'category_list'})),
+    path('categorybyid/<int:pk>', views.CategoryEditDelete.as_view()),
+    path('package', views.PackageView.as_view()),
+    path('package_post', views.PackagePostView.as_view({'get': 'package_list'})),
+    path('packagebyid/<int:pk>', views.PackageEditDelete.as_view()),
+    path('package_images', views.PackageImage.as_view()),
+    path('categories_with_packages', views.CategoryWithProducts.as_view()),
+    path('packagewithid/<int:pk>', views.PackageWithIdView.as_view()),
+    path('trip_comments', views.TripCommentsView.as_view()),
+    path('main_categories', views.MainCategoryView.as_view()),
+    path('tour_package_with_packages/<int:pk>', views.TourPackageWithPackagesView.as_view()),
+    path('packages_by_category_id/<int:pk>', views.PackagesByCategoryId.as_view()),
+    path('get_category_by_id/<int:pk>', views.GetCategoryById.as_view()),
+    path('package_query_post', views.PackageQueryPostView.as_view({'get': 'package_query_list'})),
+    path('query_by_id/<int:pk>', views.PackageQueryById.as_view()),
+    path('query_checked_by_id/<int:pk>', views.PackageQueryCheckedById.as_view()),
+    path('unchecked_query', views.UncheckedQuery.as_view()),
+    path('cat_by_id/<int:pk>', views.MainCategoryDeleteEdit.as_view()),
+    path('theme_post', views.MainCategoryPostView.as_view({'get': 'theme_list'})),
+    path('package_search', views.PackageSearch.as_view()),
+    path('blog_view', views.BlogView.as_view()),
+    path('blog_post', views.BlogPostView.as_view({'get': 'blog_list'})),
+    path('blog/<int:pk>', views.BlogDeleteEdit.as_view()),
+    path('blogbyid/<int:pk>', views.BlogByIdForHome.as_view()),
+    path('blog_search', views.BlogSearch.as_view()),
+    path('package_query_postwd', views.PackageQueryPostViewWithDepth.as_view({'get': 'package_query_list_wd'})),
+]
